@@ -24,5 +24,4 @@ function tmux
   end
 end
 
-eval (dircolors -c \
-      $XDG_CONFIG_HOME/dircolors/dircolors.ansi-dark | sed 's/>&\/dev\/null$//')
+eval (dircolors -c $HOME/.dircolors | sed 's/>&\/dev\/null$//')
