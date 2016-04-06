@@ -2,7 +2,8 @@
 # ~/.bash_profile
 #
 
-export PATH="$(ruby -e 'print Gem.user_dir')":$PATH
+PATH="$(ruby -e 'print Gem.user_dir'):$HOME/.local/bin:$PATH"
+export PATH
 
 export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_DATA_HOME="$HOME/.local/share"
