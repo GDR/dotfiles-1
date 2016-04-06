@@ -10,6 +10,5 @@ source "$HOME/.bash_prompt"
 export VISUAL=nvim
 export EDITOR="$VISUAL"
 export SUDO_EDITOR="$VISUAL"
-alias edit=eval "$VISUAL"
+alias edit='eval "$VISUAL"'
 alias ls='ls --color=auto'
-
