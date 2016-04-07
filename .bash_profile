@@ -19,7 +19,9 @@ export GNUPGHOME="$XDG_CONFIG_HOME/gnupg"
 export HTTPIE_CONFIG_DIR="$XDG_CONFIG_HOME/httpie"
 export IPYTHONDIR="$XDG_CONFIG_HOME/jupyter"
 export JUPYTER_CONFIG_DIR="$XDG_CONFIG_HOME/jupyter"
-mkdir -p "$XDG_RUNTIME_DIR/tmux"
+if [ ! -d "$XDG_RUNTIME_DIR/tmux" ]; then
+  mkdir "$XDG_RUNTIME_DIR/tmux"
+fi
 export TMUX_TMPDIR="$XDG_RUNTIME_DIR/tmux"
 export STACK_ROOT="$XDG_DATA_HOME/stack"
 export WEECHAT_HOME="$XDG_CONFIG_HOME/weechat"
