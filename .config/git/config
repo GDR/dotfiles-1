@@ -3,6 +3,9 @@
 	name = Severen Redwood
 	signingkey = 43E7EEDF
 
+[commit]
+	gpgsign = true
+
 [push]
 	default = simple
 
