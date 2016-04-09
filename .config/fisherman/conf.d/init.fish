@@ -1,3 +1,10 @@
+# Editors
+set -x VISUAL nvim
+set -x EDITOR $VISUAL
+set -x SUDO_EDITOR $VISUAL
+
+alias edit 'eval $VISUAL'
+
 ## XDG Base Directory Specification workarounds.
 if which 'ncmpcpp' > '/dev/null'
   alias ncmpcpp "ncmpcpp -c $XDG_CONFIG_HOME/ncmpcpp/config"
