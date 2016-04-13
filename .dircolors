@@ -275,6 +275,8 @@ EXEC 01;31  # Unix
 .csv 32
 .toml 32
 .conf 32
+.timer 32
+.service 32
 .gemspec 32
 .desktop 32
 
