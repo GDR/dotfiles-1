@@ -12,3 +12,5 @@ export EDITOR="$VISUAL"
 export SUDO_EDITOR="$VISUAL"
 alias edit='eval "$VISUAL"'
 alias ls='ls --color=auto'
+
+export GOPATH="$HOME/Documents/Go"
