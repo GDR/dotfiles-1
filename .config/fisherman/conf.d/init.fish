@@ -19,6 +19,7 @@ if which 'git' > '/dev/null'; and which 'hub' > '/dev/null'
 end
 
 ## Misc.
+set -x GOPATH $HOME/Documents/Go
 set fish_greeting # Goodbye welcome message!
 
 # Have Tmux re-attach to the Tmux the main session.
