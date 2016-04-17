@@ -2,12 +2,14 @@
 # ~/.bash_profile
 #
 
-PATH="$(ruby -e 'print Gem.user_dir'):$HOME/.local/bin:$PATH"
-export PATH
-
 export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_CACHE_HOME="$HOME/.cache"
+
+PATH="$(ruby -e 'print Gem.user_dir'):$XDG_DATA_HOME/cargo/bin:$HOME/.local/bin:$PATH"
+export PATH
+
+export GOPATH="$HOME/Documents/Go"
 
 if [ ! -d "$XDG_DATA_HOME/bash" ]; then
   mkdir "$XDG_DATA_HOME/bash"
