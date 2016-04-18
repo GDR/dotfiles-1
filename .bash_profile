@@ -10,6 +10,7 @@ PATH="$(ruby -e 'print Gem.user_dir'):$XDG_DATA_HOME/cargo/bin:$HOME/.local/bin:
 export PATH
 
 export GOPATH="$HOME/Documents/Go"
+export RUSTUP_HOME="$XDG_DATA_HOME/rustup"
 
 if [ ! -d "$XDG_DATA_HOME/bash" ]; then
   mkdir "$XDG_DATA_HOME/bash"
