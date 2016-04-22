@@ -274,6 +274,7 @@ EXEC 01;31  # Unix
 .sql 32
 .csv 32
 .toml 32
+.yaml 32
 .conf 32
 .timer 32
 .service 32
