@@ -1,7 +1,10 @@
+hutenosa/autoenvstack
 edc/bass
 0rax/fish-bd
 fisherman/flash
 fisherman/fzf
 fisherman/getopts
+fisherman/pyenv
+fisherman/rbenv
 oh-my-fish/plugin-thefuck
 fisherman/z
