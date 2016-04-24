@@ -2,4 +2,6 @@ edc/bass
 oh-my-fish/plugin-fasd
 fisherman/flash
 fisherman/fzf
+fisherman/getopts
 oh-my-fish/plugin-thefuck
+fisherman/z
