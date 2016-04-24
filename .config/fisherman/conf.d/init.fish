@@ -18,6 +18,10 @@ if which 'git' > '/dev/null'; and which 'hub' > '/dev/null'
   alias 'git' 'hub'
 end
 
+## Fisherman Plugins
+# Z
+set -U Z_DATA $XDG_DATA_HOME/z
+
 ## Misc.
 set -x GOPATH $HOME/Documents/Go
 set fish_greeting # Goodbye welcome message!
