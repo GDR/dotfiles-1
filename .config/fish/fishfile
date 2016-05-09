@@ -6,7 +6,5 @@ fisherman/flash
 fisherman/fzf
 fisherman/getopts
 fisherman/last_job_id
-fisherman/pyenv
-fisherman/rbenv
 oh-my-fish/plugin-thefuck
 fisherman/z
