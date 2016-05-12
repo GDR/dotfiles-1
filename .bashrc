@@ -10,8 +10,6 @@ if [ ! -d "$XDG_DATA_HOME/bash" ]; then
 fi
 export HISTFILE="$XDG_DATA_HOME/bash/history"
 
-source "$HOME/.bash_prompt"
-
 export VISUAL=nvim
 export EDITOR="$VISUAL"
 export SUDO_EDITOR="$VISUAL"
