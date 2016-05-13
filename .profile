@@ -26,6 +26,7 @@ fi
 export TMUX_TMPDIR="$XDG_RUNTIME_DIR/tmux"
 export STACK_ROOT="$XDG_DATA_HOME/stack"
 export WEECHAT_HOME="$XDG_CONFIG_HOME/weechat"
+export VAGRANT_HOME="$XDG_DATA_HOME/vagrant"
 export WINEPREFIX="$XDG_DATA_HOME/wine/prefixes/default"
 export TMUX_TMPDIR="$XDG_RUNTIME_DIR/tmux"
 export RUST_SRC_PATH="$HOME/.local/src/rust/src"
