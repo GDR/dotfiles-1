@@ -1,5 +1,5 @@
 # Environment #
-if status --login
+if status --is-login
   set -x PATH (ruby -e 'print Gem.user_dir') $HOME/.local/bin $PATH
 end
 set -x GOPATH $HOME/Documents/Go
