@@ -44,13 +44,4 @@ if status --is-interactive
   if which git > /dev/null
     alias gpl 'git log --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit'
   end
-
-  # Functions #
-  function tmux
-    if test $argv[1]
-      /usr/bin/tmux $argv -f $XDG_CONFIG_HOME/tmux/tmux.conf
-    else
-      /usr/bin/tmux -f $XDG_CONFIG_HOME/tmux/tmux.conf new-session -A -s main
-    end
-  end
 end
