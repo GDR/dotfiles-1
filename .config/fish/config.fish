@@ -1,7 +1,5 @@
 # Environment #
-if status --is-login
-  set -x PATH (ruby -e 'print Gem.user_dir') $HOME/.local/bin $PATH
-end
+set -x PATH (ruby -e 'print Gem.user_dir') $HOME/.local/bin $HOME/.local/share/cargo/bin $PATH
 set -x GOPATH $HOME/Documents/Go
 
 # Plugins #
@@ -44,4 +42,6 @@ if status --is-interactive
   if which git > /dev/null
     alias gpl 'git log --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit'
   end
+
+  eval (python -m virtualfish)
 end
