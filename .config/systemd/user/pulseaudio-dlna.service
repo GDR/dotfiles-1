@@ -1,7 +1,6 @@
 [Unit]
 Description=DLNA/UPnP streaming server for PulseAudio
-Requires=sound.target network.target dbus.service
-After=sound.target network.target dbus.service
+After=sound.target network.target network-online.service dbus.service
 
 [Service]
 ExecStart=/usr/bin/pulseaudio-dlna
