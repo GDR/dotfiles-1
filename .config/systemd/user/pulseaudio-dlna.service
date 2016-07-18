@@ -1,0 +1,9 @@
+[Unit]
+Description=DLNA/UPnP streaming server for PulseAudio
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/pulseaudio-dlna
+
+[Install]
+WantedBy=default.target
